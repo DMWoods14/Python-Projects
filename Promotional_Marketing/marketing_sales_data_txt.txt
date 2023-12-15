@@ -1,0 +1,30 @@
+
+OLS Regression Results:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Sales   R-squared:                       0.904
+Model:                            OLS   Adj. R-squared:                  0.904
+Method:                 Least Squares   F-statistic:                     1782.
+Date:                Thu, 14 Dec 2023   Prob (F-statistic):          1.61e-287
+Time:                        20:33:46   Log-Likelihood:                -2701.4
+No. Observations:                 569   AIC:                             5411.
+Df Residuals:                     565   BIC:                             5428.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+Intercept         217.6367      6.577     33.089      0.000     204.718     230.556
+C(TV)[T.Low]     -152.0897      5.160    -29.474      0.000    -162.225    -141.954
+C(TV)[T.Medium]   -73.4835      3.587    -20.484      0.000     -80.530     -66.437
+Radio               2.8864      0.217     13.306      0.000       2.460       3.312
+==============================================================================
+Omnibus:                       35.219   Durbin-Watson:                   1.949
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               13.863
+Skew:                           0.087   Prob(JB):                     0.000976
+Kurtosis:                       2.255   Cond. No.                         155.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
