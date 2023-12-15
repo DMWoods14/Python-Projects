@@ -7,7 +7,7 @@ from statsmodels.formula.api import ols
 import statsmodels.api as sm
 # from statsmodels.graphics.gofplots import qqplot
 
-csv_file_path = 'C:\\Users\\Mr.NightMare\\Documents\\School\\Data Sets\\marketing_sales_data.csv'
+csv_file_path = 'C:\\Users\\***\\Documents\\School\\Data Sets\\marketing_sales_data.csv'
 
 data = pd.read_csv(csv_file_path)
 data = data.dropna(axis=0)
@@ -20,7 +20,7 @@ model = OLS.fit()
 model_results = model.summary()
 
 # Specify the directory and file paths for the PDF and TXT
-pdf_directory = 'C:\\Users\\Mr.NightMare\\Documents\\School\\Data Sets\\PDFs'
+pdf_directory = 'C:\\Users\\***\\Documents\\School\\Data Sets\\PDFs'
 pdf_file_path = os.path.join(pdf_directory, 'marketing_sales_data.pdf')
 txt_file_path = os.path.join(pdf_directory, 'marketing_sales_data_txt.txt')
 
